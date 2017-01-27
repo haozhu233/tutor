@@ -20,7 +20,7 @@ tutor_autocompletion_html_dependency <- function() {
   htmltools::htmlDependency(
     name = "tutor-autocompletion",
     version = utils::packageVersion("tutor"),
-    src = html_dependency_src("lib", "tutor"),
+    src = html_dependency_src("lib", "tutor", "tutor"),
     script = "tutor-autocompletion.js"
   )
 }
